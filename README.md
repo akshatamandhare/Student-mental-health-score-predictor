@@ -253,7 +253,7 @@ Returns the predicted mental health score for one student.
 
 ```json
 {
-  "predicted_mental_score": 75.45
+  "predicted_mental_score": 7.5
 }
 ```
 
