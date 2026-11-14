@@ -7,7 +7,7 @@
   "use strict";
 
   /* ---------- Configuration ---------- */
-  const API_URL = "https://student-mental-health-score-predictor-tkvg.onrender.com";
+  const API_URL = "http://127.0.0.1:8000";
   const REQUEST_TIMEOUT_MS = 20000;
   const GAUGE_CIRCUMFERENCE = 2 * Math.PI * 94; // matches r="94" in the SVG
 
