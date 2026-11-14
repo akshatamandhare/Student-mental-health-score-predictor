@@ -12,9 +12,9 @@ A complete machine learning web application. A trained **regression model** is s
 
 | Part | Link |
 |---|---|
-| 🖥 **Frontend (website)** | https://student-mental-health-score-predictor-1-4ewb.onrender.com |
-| ⚙️ **Backend (API)** | https://student-mental-health-score-predictor-equr.onrender.com |
-| 📘 **API docs (Swagger)** | https://student-mental-health-score-predictor-equr.onrender.com/docs |
+| 🖥 **Frontend (website)** | https://student-mental-health-score-predictor-wkrq.onrender.com |
+| ⚙️ **Backend (API)** | https://student-mental-health-score-predictor-mkbp.onrender.com |
+| 📘 **API docs (Swagger)** | https://student-mental-health-score-predictor-mkbp.onrender.com/docs |
 
 > ⏳ **Note:** Both services are hosted on Render's free plan. If nobody has used them for a while they go to sleep, so the **first request can take 30 to 60 seconds**. Please wait and try again.
 
