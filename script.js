@@ -7,7 +7,7 @@
   "use strict";
 
   /* ---------- Configuration ---------- */
-  const API_URL = "https://student-mental-health-score-predictor-equr.onrender.com";
+  const API_URL = "https://student-mental-health-score-predictor-tkvg.onrender.com";
   const REQUEST_TIMEOUT_MS = 20000;
   const GAUGE_CIRCUMFERENCE = 2 * Math.PI * 94; // matches r="94" in the SVG
 
@@ -212,7 +212,8 @@
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
     try {
-      const response = await fetch(API_URL, {
+      const response = await fetch(`${API_URL}/predict`, {
+      // const response = await fetch(API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(payload),
